@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background: #1a7252;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: inherit;
+}
+.item{
+    background: none;
+    height: 300px;
+    width: 300px;
+    margin: 0 40px;
+}
+.title{
+    display: flex;
+    align-items: center;
+
+    font-size: 40px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+    transition: all 0.5s;
+}
+p{
+    width: 300px;
+    text-align: center;
+}
+.title:hover{
+    cursor: pointer;
+    font-size: 45px;
+    background: rgba(255, 255, 255, 1);
+    color: #1a7252;
+    letter-spacing: 5px;
+}
+.title:hover a{
+    color: #1a7252;
+}
